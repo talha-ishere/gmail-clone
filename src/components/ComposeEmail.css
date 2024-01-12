@@ -1,0 +1,76 @@
+.compose-wrapper {
+  width: 31.8rem;
+  height: 30rem;
+  margin-right: 3rem;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 4px 1px lightgray;
+}
+.head-composeEmail {
+  background-color: #f2f6fc;
+  padding: 1px 10px;
+  font-weight: bold;
+  font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font-size: 0.775rem;
+  color: #422849;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.composeEmail-close {
+  cursor: pointer;
+}
+.composeEmail-close:hover {
+  padding: 2px;
+  box-shadow: 0px 1px 0px 0px lightgray;
+  border-radius: 5px;
+}
+.composeEmail-body {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.composeEmail-body input {
+  padding: 5px 5px;
+  font-size: medium;
+  border-style: none;
+  outline: none;
+}
+.composeEmail-lineBreak {
+  width: 96%;
+  margin: 5px;
+  border-color: white;
+}
+.composeEmail-body textarea {
+  border: none;
+  outline: none;
+  padding: 10px;
+  resize: none;
+  height: 18rem;
+}
+.composeEmail-footer {
+  padding: 0.1rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 5rem; */
+}
+.composeEmail-footer button {
+  padding: 0.6rem 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #1a73e8;
+  color: white;
+  cursor: pointer;
+}
+.filename {
+  margin-right: 2rem;
+  width: 10rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-wrap: nowrap;
+}

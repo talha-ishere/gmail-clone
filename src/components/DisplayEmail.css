@@ -1,0 +1,155 @@
+.display-email {
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  width: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+
+  /* max-width: 75rem; */
+}
+.head {
+  margin: 5px;
+  width: 100%;
+  display: flex;
+}
+.email-subject {
+  /* font-weight: 2; */
+  font-size: x-large;
+}
+
+.email-body {
+  width: 100%;
+  margin: 10px;
+  padding: 20px;
+  margin-left: 1rem;
+}
+.back {
+  padding: 10px 12px;
+  border-radius: 90px;
+  border: 1px solid;
+  background-color: white;
+  color: #eaf1fb;
+  cursor: pointer;
+}
+.footer {
+  display: flex;
+  justify-content: end;
+  margin-right: 10rem;
+  gap: 10rem;
+  margin-bottom: 10rem;
+}
+
+.footer button,
+.reply-footer button {
+  padding: 0.8rem 3rem;
+  font-size: large;
+  border-radius: 10px;
+  border: none;
+  background-color: #1a73e8;
+  color: white;
+  cursor: pointer;
+}
+.footer button:hover,
+.reply-footer button:hover {
+  box-shadow: 0px 0px 1px 1px lightgray;
+  background-color: #2760ac;
+}
+
+.replyBox-container {
+  display: flex;
+  flex-direction: column;
+  /* height: 15rem; */
+  width: 90%;
+  margin: 1rem;
+  border-radius: 10px;
+  border: 1px solid lightblue;
+  /* overflow: scroll; */
+  margin-left: 5rem;
+}
+.replyBox-container textarea {
+  border: none;
+  outline: none;
+  padding: 10px;
+  resize: none;
+  height: 15rem;
+  margin: 4px;
+  font-size: medium;
+}
+.replyBox-container:hover {
+  box-shadow: 0px 0px 2px 2px #f0f0f0;
+}
+.replyBox-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.3rem 1rem;
+}
+
+.replyBox-close {
+  cursor: pointer;
+}
+.replyBox-close:hover {
+  padding: 2px 2px;
+}
+.email-subject {
+  margin: 1rem 3rem;
+}
+.reply-footer {
+  display: flex;
+  justify-content: start;
+  margin-left: 4rem;
+}
+.forwordBox-container {
+  /* display: flex;
+  flex-direction: column; */
+  /* height: 15rem; */
+  width: 90%;
+  margin: 1rem;
+  border-radius: 10px;
+  border: 1px solid lightblue;
+  /* overflow: scroll; */
+  margin-left: 3rem;
+}
+.forword-to-input {
+  padding: 5px 5px;
+  font-size: medium;
+  border-style: none;
+  outline: none;
+  box-shadow: 0px 0px 1px 1px lightblue;
+  border-radius: 5px;
+  margin: 0.1rem 0.5rem;
+  width: 30%;
+}
+.forword-input-wrapper {
+  margin-left: 2rem;
+}
+.replyBox-containe textarea {
+  height: 10rem;
+}
+.forwordBox-container textarea {
+  max-height: 10rem; /* Limiting maximum height */
+  overflow-y: auto;
+  height: 10rem;
+  margin: 0.5rem;
+  resize: none;
+  width: inherit;
+  border: 1px solid lightgray;
+  outline: none;
+}
+.email-att {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 2rem;
+}
+.att-box {
+  border: 1px solid lightblue;
+  padding: 5rem 2rem;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.att-box:hover {
+  box-shadow: 0px 0px 1px 1px lightblue;
+}

@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+  height: 44rem;
+  background-color: white;
+  border-radius: 5px;
+  overflow-x: hidden;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+}
+.content-logo {
+  margin: 3rem 12rem;
+  opacity: 0.8;
+}

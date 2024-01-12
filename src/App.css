@@ -1,0 +1,35 @@
+.set-items {
+  display: flex;
+
+  width: 100%;
+}
+
+/* .signin-button-wrapper {
+  background-color: #4185f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.signin-button {
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 5rem;
+  margin-top: 5rem;
+  background-color: #4185f4;
+  color: white;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app-wrapper img {
+  margin-top: 10rem;
+  width: 30rem;
+  height: 15rem;
+}

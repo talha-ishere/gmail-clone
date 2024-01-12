@@ -1,0 +1,45 @@
+.row {
+  display: flex;
+  margin: 0.1rem;
+  padding: 0.7rem 0.2rem;
+  font-size: medium;
+  border-bottom: 1px solid;
+  border-color: rgb(217, 232, 246);
+  cursor: pointer;
+  overflow-x: hidden;
+  width: 80%;
+}
+.row:hover {
+  /* padding: 0.7rem 0.1rem; */
+  box-shadow: 0px 1px 0px 0px lightgray;
+}
+.container li {
+  list-style: none;
+}
+.snippet {
+  margin-left: 6rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.inbox-head {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+  width: 80%;
+}
+.arrow-buttons {
+  padding: 7px 9px;
+  border-radius: 90px;
+  border: 1px solid;
+  background-color: white;
+  color: #eaf1fb;
+  cursor: pointer;
+}
+.sender-name {
+  width: 4rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
